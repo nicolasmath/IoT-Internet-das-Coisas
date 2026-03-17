@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/nicolasmath/lab-redes-01)
+<img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge">
 
 # IoT-Internet-das-Coisas
 

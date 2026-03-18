@@ -58,6 +58,21 @@ Smartphone -->|Ping ICMP| Arduino
 
 ---
 
+## Endereço MAC do Arduino:
+
+Para que o Arduino com Ethernet Shield funcione corretamente na rede, é necessário definir um endereço MAC único.
+
+Caso não saiba qual utilizar, você pode gerar um endereço válido através do site:
+
+🔗 https://ssl.crox.net/arduinomac/
+
+Após gerar, copie o MAC e utilize no seu código Arduino:
+
+```cpp
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+```
+---
+
 ## Testes Realizados:
 
 Foi utilizado um aplicativo de ping para testar a comunicação:

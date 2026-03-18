@@ -48,6 +48,16 @@ Smartphone -->|Ping ICMP| Arduino
 
 ---
 
+## Configuração de Rede:
+
+| Parâmetro  | Valor         |
+| ---------- | ------------- |
+| IP Arduino | 192.168.0.213 |
+| Gateway    | 192.168.0.1   |
+| Máscara    | 255.255.255.0 |
+
+---
+
 ## Testes Realizados:
 
 Foi utilizado um aplicativo de ping para testar a comunicação:

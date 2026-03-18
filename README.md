@@ -10,5 +10,38 @@ Data: 17/03/2026
 
 ---
 
-## **1. Objetivo:**
+# 📡 IoT com Arduino Ethernet - Monitoramento de Rede
+
+Projeto de Internet das Coisas (IoT) utilizando Arduino com Ethernet Shield para comunicação em rede local e testes de conectividade.
+
+---
+
+## Objetivo:
+
+Estabelecer comunicação entre um dispositivo Arduino e a rede local, permitindo:
+
+- Obter endereço IP
+- Responder requisições HTTP
+- Validar conectividade via Ping
+
+---
+
+## Componentes Utilizados:
+
+- Arduino UNO  
+- Ethernet Shield (W5100)  
+- Roteador  
+- 2 Cabos Ethernet  
+- Smartphone com aplicativo de Ping  
+
+---
+
+## Topologia da Rede:
+
+```mermaid
+graph TD
+Internet --> Roteador
+Roteador --> Arduino
+Roteador --> Smartphone
+Smartphone -->|Ping ICMP| Arduino
 

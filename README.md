@@ -52,9 +52,9 @@ Smartphone -->|Ping ICMP| Arduino
 
 Foi utilizado um aplicativo de ping para testar a comunicação:
 
-- ✔ Respostas recebidas com sucesso  
-- ⏱ Latência média: **3ms ~ 13ms**  
-- 📶 Comunicação estável  
+- Respostas recebidas com sucesso  
+- Latência média: **3ms ~ 13ms**  
+- Comunicação estável  
 
 ---
 
@@ -69,13 +69,13 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 ## Imagens do Projeto
 
 ### Hardware
-![Hardware](images/hardware.jpg)
+![Hardware](Mídia.jpg)
 
 ### Montagem (Fritzing)
-![Fritzing](images/fritzing.jpg)
+![Fritzing](modelo-arduino.jpg)
 
 ### Código em execução
-![Código](images/codigo.jpg)
+![Código](codigo.jpg)
 
 ### Teste de Ping
 ![Ping](images/ping.jpg)

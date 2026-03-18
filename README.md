@@ -68,17 +68,25 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 
 ## Imagens do Projeto
 
-### Hardware
-![Hardware](Mídia.jpg)
+<p align="center">
+  <strong>Hardware:</strong><br><br>
+  <img src="Mídia.jpg" alt="Mídia.jpg" width="600">
+</p>
 
-### Montagem (Fritzing)
-![Fritzing](modelo-arduino.jpg)
+<p align="center">
+  <strong>Montagem (Fritzing):</strong><br><br>
+  <img src="modelo-arduino.jpg" alt="modelo-arduino.jpg" width="600">
+</p>
 
-### Código em execução
-![Código](codigo.jpg)
+<p align="center">
+  <strong>Código em execução:</strong><br><br>
+  <img src="codigo.jpg" alt="codigo.jpg" width="600">
+</p>
 
-### Teste de Ping
-![Ping](sharedimage.jpg)
+<p align="center">
+  <strong>Teste de Ping:</strong><br><br>
+  <img src="sharedimage.jpg" alt="sharedimage.jpg" width="600">
+</p>
 
 ---
 

@@ -10,7 +10,7 @@ Data: 17/03/2026
 
 ---
 
-# 📡 IoT com Arduino Ethernet - Monitoramento de Rede
+# IoT com Arduino Ethernet - Monitoramento de Rede
 
 Projeto de Internet das Coisas (IoT) utilizando Arduino com Ethernet Shield para comunicação em rede local e testes de conectividade.
 
@@ -78,7 +78,7 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 ![Código](codigo.jpg)
 
 ### Teste de Ping
-![Ping](images/ping.jpg)
+![Ping](sharedimage.jpg)
 
 ---
 

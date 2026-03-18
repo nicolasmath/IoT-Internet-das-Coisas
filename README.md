@@ -44,4 +44,48 @@ Internet --> Roteador
 Roteador --> Arduino
 Roteador --> Smartphone
 Smartphone -->|Ping ICMP| Arduino
+```
+
+---
+
+## Testes Realizados:
+
+Foi utilizado um aplicativo de ping para testar a comunicação:
+
+- ✔ Respostas recebidas com sucesso  
+- ⏱ Latência média: **3ms ~ 13ms**  
+- 📶 Comunicação estável  
+
+---
+
+## Segurança:
+
+- Comunicação local sem autenticação  
+- Dispositivo vulnerável se exposto (ex: DMZ)  
+- Firewall do roteador controla acessos externos  
+
+---
+
+## Imagens do Projeto
+
+### Hardware
+![Hardware](images/hardware.jpg)
+
+### Montagem (Fritzing)
+![Fritzing](images/fritzing.jpg)
+
+### Código em execução
+![Código](images/codigo.jpg)
+
+### Teste de Ping
+![Ping](images/ping.jpg)
+
+---
+
+## Melhorias Futuras
+
+- Adicionar sensores IoT  
+- Criar dashboard web  
+- Implementar autenticação  
+- Integração com API  
 

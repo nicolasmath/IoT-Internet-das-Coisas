@@ -114,14 +114,14 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 </p>
 
 ---
-
+<--
 ## Melhorias Futuras
 
 - Adicionar sensores IoT  
 - Criar dashboard web  
 - Implementar autenticação  
 - Integração com API  
-
+-->
 ---
 
 ## Servidor Web com Arduino

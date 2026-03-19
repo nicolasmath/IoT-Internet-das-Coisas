@@ -122,3 +122,129 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 - Implementar autenticação  
 - Integração com API  
 
+---
+
+## Servidor Web com Arduino
+
+Foi implementado um servidor web utilizando o Arduino com Ethernet Shield, permitindo acessar uma página HTML diretamente pelo navegador.
+
+---
+
+## Desenvolvimento do Front-end
+
+Foi criada uma página HTML simples para testes, utilizando:
+
+- Estrutura básica em HTML5  
+- Estilização com CSS  
+- Testes locais com Live Server no VS Code  
+
+### Estrutura do projeto local
+
+/public_html
+└── index.html
+
+---
+
+### 💻 Código HTML
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino WEB Server</title>
+    <style>
+        body {
+            background-color: #ebffec;
+            font-family: sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Arduino</h1>    
+</body>
+</html>
+```
+
+---
+
+##Configuração do Servidor no Arduino
+
+O HTML foi embarcado diretamente no código do Arduino utilizando `PROGMEM`, permitindo que o dispositivo funcione como um servidor web.
+
+---
+
+##Bibliotecas Utilizadas
+
+- `SPI.h`  
+- `Ethernet.h`  
+
+---
+
+##Acesso via Rede
+
+Após configurar o roteador e reservar um IP para o Arduino utilizando o endereço MAC, o servidor foi acessado com sucesso.
+
+---
+
+##Configuração Aplicada
+
+- IP reservado: **192.168.0.103**  
+- Porta: **80 (HTTP)**  
+- Acesso via navegador (celular ou PC)  
+
+---
+
+##Teste de Acesso
+
+O acesso foi realizado utilizando um smartphone conectado à mesma rede Wi-Fi.
+
+- ✔ Página carregada com sucesso  
+- ✔ Comunicação funcionando via navegador  
+- ✔ Integração Arduino + Web validada  
+
+---
+
+##Conceitos Aplicados
+
+Durante o desenvolvimento, foram abordados:
+
+- HTML5 (estrutura de páginas web)  
+- CSS (estilização)  
+- Servidor HTTP  
+- Comunicação cliente/servidor  
+- Rede local (LAN)  
+
+---
+
+##Ferramentas Utilizadas
+
+- Visual Studio Code  
+- Extensão Live Server  
+- Navegador Google Chrome (DevTools - F12)  
+- Arduino IDE  
+
+---
+
+##Próximos Passos do Projeto
+
+- Criar páginas HTML mais interativas  
+- Adicionar botões para controlar dispositivos (LED, sensores)  
+- Implementar JavaScript  
+- Melhorar o design com CSS  
+- Criar um mini dashboard web  
+
+---
+
+## 💡 Agora você tá em outro nível
+
+Você já tem:
+- ✅ Arduino respondendo HTTP  
+- ✅ HTML rodando no Arduino  
+- ✅ Acesso pelo celular  
+- ✅ Rede configurada com IP reservado  
+
+👉 Isso já é praticamente um **mini servidor web embarcado (IoT real)**
+

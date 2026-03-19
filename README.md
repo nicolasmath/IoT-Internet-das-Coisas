@@ -145,7 +145,7 @@ Foi criada uma página HTML simples para testes, utilizando:
 
 ---
 
-### 💻 Código HTML
+### Código HTML
 
 ```html
 <!DOCTYPE html>
@@ -170,26 +170,26 @@ Foi criada uma página HTML simples para testes, utilizando:
 
 ---
 
-##Configuração do Servidor no Arduino
+## Configuração do Servidor no Arduino
 
 O HTML foi embarcado diretamente no código do Arduino utilizando `PROGMEM`, permitindo que o dispositivo funcione como um servidor web.
 
 ---
 
-##Bibliotecas Utilizadas
+## Bibliotecas Utilizadas
 
 - `SPI.h`  
 - `Ethernet.h`  
 
 ---
 
-##Acesso via Rede
+## Acesso via Rede
 
 Após configurar o roteador e reservar um IP para o Arduino utilizando o endereço MAC, o servidor foi acessado com sucesso.
 
 ---
 
-##Configuração Aplicada
+## Configuração Aplicada
 
 - IP reservado: **192.168.0.103**  
 - Porta: **80 (HTTP)**  
@@ -197,7 +197,7 @@ Após configurar o roteador e reservar um IP para o Arduino utilizando o endere�
 
 ---
 
-##Teste de Acesso
+## Teste de Acesso
 
 O acesso foi realizado utilizando um smartphone conectado à mesma rede Wi-Fi.
 
@@ -207,7 +207,7 @@ O acesso foi realizado utilizando um smartphone conectado à mesma rede Wi-Fi.
 
 ---
 
-##Conceitos Aplicados
+## Conceitos Aplicados
 
 Durante o desenvolvimento, foram abordados:
 
@@ -219,7 +219,7 @@ Durante o desenvolvimento, foram abordados:
 
 ---
 
-##Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - Visual Studio Code  
 - Extensão Live Server  
@@ -228,7 +228,7 @@ Durante o desenvolvimento, foram abordados:
 
 ---
 
-##Próximos Passos do Projeto
+## Próximos Passos do Projeto
 
 - Criar páginas HTML mais interativas  
 - Adicionar botões para controlar dispositivos (LED, sensores)  

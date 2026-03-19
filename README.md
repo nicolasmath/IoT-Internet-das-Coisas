@@ -114,7 +114,7 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 </p>
 
 ---
-<--
+<!--
 ## Melhorias Futuras
 
 - Adicionar sensores IoT  

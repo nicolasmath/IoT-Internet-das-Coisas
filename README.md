@@ -121,8 +121,9 @@ Foi utilizado um aplicativo de ping para testar a comunicação:
 - Criar dashboard web  
 - Implementar autenticação  
 - Integração com API  
--->
+
 ---
+-->
 
 ## Servidor Web com Arduino
 
